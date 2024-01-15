@@ -4,12 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>MadyVerse 3D-Portfolio</title>
-    <style>
-    body {overflow: hidden; }
-    </style>
   </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0; position: absolute; width: 100%; height: 100%">
-    <canvas id="unity-canvas" width={{{ WIDTH }}} height={{{ HEIGHT }}} style="width: 100%; height: 100% background: #231F20"></canvas>
+  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
     <script src="Build/Build1.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -32,9 +29,9 @@
         frameworkUrl: "Build/Build1.framework.js",
         codeUrl: "Build/Build1.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "MaadysCraft",
         productName: "MadyVerse",
-        productVersion: "0.1.0",
+        productVersion: "2.0.1",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
