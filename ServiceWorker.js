@@ -1,9 +1,9 @@
 const cacheName = "MaadysCraft-MadyVerse-2.0.1";
 const contentToCache = [
-    "Build/Madyverse-new.loader.js",
-    "Build/Madyverse-new.framework.js",
-    "Build/Madyverse-new.data",
-    "Build/Madyverse-new.wasm",
+    "Build/Madyverse01.loader.js",
+    "Build/Madyverse01.framework.js",
+    "Build/Madyverse01.data",
+    "Build/Madyverse01.wasm",
     "TemplateData/style.css"
 
 ];
