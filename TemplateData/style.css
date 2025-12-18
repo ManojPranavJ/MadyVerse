@@ -24,11 +24,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    display: none;
-    /* 🔑 Fix alignment */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none
 }
 
 /* Unity logo */
@@ -41,11 +37,12 @@
 
 /* Progress bar empty */
 #unity-progress-bar-empty {
+    margin-left: auto;
+    margin-right: auto;
     width: 141px;
     height: 18px;
     margin-top: 10px;
-    background: url('progress-bar-empty-light.png') no-repeat center;
-    background-size: contain;
+    background: url('progress-bar-empty-light.png') no-repeat center
 }
 
 /* Progress bar fill */
@@ -53,8 +50,7 @@
     width: 0%;
     height: 18px;
     margin-top: 10px;
-    background: url('progress-bar-full-light.png') no-repeat center;
-    background-size: contain;
+    background: url('progress-bar-full-light.png') no-repeat center
 }
 
 /* Story text below bar */
